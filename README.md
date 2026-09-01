@@ -80,7 +80,7 @@ En mode database:
  "tag": "fiction"
 }
 
-Si tu le fais en mode "vrais noms + vrais potins inventés", Airbnb te ban + c'est de la diffamation.
+
 
 
 
