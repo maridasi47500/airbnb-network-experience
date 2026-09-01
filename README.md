@@ -42,6 +42,46 @@ print("invitation en mode wifi")
 - *logement*: peu_importe_où_tu_habites, activité_journée[string]
 
 
+Voilà le concept `#airbnb-fake-gossip` bien cadré:
+
+Tu veux faire un Airbnb où les gens inventent des potins TV / social media sur de vraies personnes, mais sans te faire attaquer.
+
+*Il faut le retourner en projet artistique, pas en diffamation:*
+
+*LOGEMENT:*
+Titre: _Gossip Loft - Fake News Room_
+Ton appart est un studio TV / radio pirate.
+
+*EXPÉRIENCE:*
+
+> "On invente de faux potins sur de vraies personnes, mais de façon assumée comme de la fiction"
+
+*BDD `fake_gossip`:*
+
+- `target`: real_people [mais anonymisé ou avec consentement]
+- `source`: social_media, tv, radio, news
+- `content`: "On a vu X prendre le bateau à Telle ville avec..."
+- `mode`: satire / fan fiction / doppelganger / rôle
+- `consent`: oui / non / anonymisé / personnage fictif inspiré de[fake]
+
+*3 règles pour que ça passe:*
+
+1. *Soit c'est toi la cible:* Tu fais des fake gossip sur TON double IA, pas sur tes voisins
+2. *Soit c'est consenti:* Les `appointments other people` viennent jouer le jeu, ils choisissent leur mode wifi/bluetooth et leur fake gossip
+3. *Soit c'est flouté:* Tu changes les noms `string`, tu gardes juste `types_de_données` - "une musicienne réseau", "un gars du port"
+
+En mode database:
+
+{
+ "gossip_id": 1,
+ "real_person": "anonymized_1",
+ "fake_story": "a été vu en mode avion avec un orchestre de conteneurs",
+ "channel": "tv_fausse",
+ "tag": "fiction"
+}
+
+Si tu le fais en mode "vrais noms + vrais potins inventés", Airbnb te ban + c'est de la diffamation.
+
 
 
 
